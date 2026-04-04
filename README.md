@@ -32,36 +32,24 @@ SupplementaryMaterials/
 │   │   ├── SuppMat_ds_predictive_prosodic_features.*      ← ML dataset
 │   │   ├── SuppMat_speech_annotation_report.txt
 │   │   ├── SuppMat_SpeechRhythmExtractor.praat            ← main script
-│   │   ├── SuppMat_SpeechRhythmExtractor_README_EN.md
-│   │   ├── SuppMat_SpeechRhythmExtractor_README_PT.md
-│   │   ├── SuppMat_SpeechRhythmExtractor_UserManual_EN.docx
-│   │   └── SuppMat_SpeechRhythmExtractor_UserManual_PT.docx
+│   │   ├── SuppMat_SpeechRhythmExtractor_UserManual.pdf
 │   │
 │   └── SuppMat_VVUnitAligner/
 │       ├── SuppMat_VVUnitAligner.praat                    ← main script
-│       ├── SuppMat_VVUnitAligner_README.docx
-│       ├── SuppMat_VVUnitAligner_README.pdf
-│       ├── SuppMat_VVUnitAligner_UserManual.docx
 │       └── SuppMat_VVUnitAligner_UserManual.pdf
 │
 ├── SuppMat_ASR_dialect_classification/
-│   ├── SuppMat_ds_inferential_prosodic_features.*         ← inferential dataset
 │   ├── SuppMat_ds_predictive_prosodic_features.*          ← ML training/validation dataset
 │   ├── SuppMatt_ASR_dialect_classification.py             ← main script
-│   ├── SuppMat_ASR_dialect_classification_README.*        ← EN + PT
-│   ├── SuppMat_ASR_dialect_classification_UserManual.*    ← EN + PT
+│   ├── SuppMat_ASR_dialect_classification_UserManual.
 │   ├── SuppMat_accuracy_comparison_plot.png
 │   ├── SuppMat_confusion_matrices_panel.png
 │   ├── SuppMat_feature_importance_plot.png
 │   ├── SuppMat_classification_report.txt
-│   └── SuppMat_predictions_by_model.csv
 │
 └── SuppMat_LMEM_function/
     ├── SuppMat_ds_inferential_prosodic_features.*         ← inferential dataset
     ├── SuppMat_LMEM_function.R                            ← main script
-    ├── SuppMat_LMEM_function_README.docx
-    ├── SuppMat_LMEM_function_README.pdf
-    ├── SuppMat_LMEM_function_UserManual.docx
     ├── SuppMat_LMEM_function_UserManual.pdf
     └── SuppMat_lmem_report.txt
 ```
@@ -105,26 +93,20 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 | `SuppMat_ds_inferential_prosodic_features.*` | Dataset for LMEM analyses |
 | `SuppMat_ds_predictive_prosodic_features.*` | Dataset for ML classification |
 | `SuppMat_speech_annotation_report.txt` | Speech annotation summary |
-| `SuppMat_SpeechRhythmExtractor_README_EN.md` | Quick-start guide (English) |
-| `SuppMat_SpeechRhythmExtractor_README_PT.md` | Guia rápido (português) |
-| `SuppMat_SpeechRhythmExtractor_UserManual_EN.docx` | Full User Manual (English) |
-| `SuppMat_SpeechRhythmExtractor_UserManual_PT.docx` | Manual do Usuário (português) |
+| `SuppMat_SpeechRhythmExtractor_UserManual.docx` | Full User Manual |
 
 ---
 
 #### 📁 `SuppMat_VVUnitAligner/`
 
 **Language:** Praat scripting language  
-**Purpose:** Automatically detects and aligns vocalic (V-to-V) intervals in speech, producing the TextGrid segmentation required as input for `SuppMat_SpeechRhythmExtractor`.
+**Purpose:** Automatically detects and aligns phonetic syllables - i.e.,  vocalic-based (V-to-V) intervals in speech, producing the TextGrid segmentation required as input for `SuppMat_SpeechRhythmExtractor`.
 
 **Files:**
 
 | File | Description |
 |---|---|
 | `SuppMat_VVUnitAligner.praat` | Main Praat script |
-| `SuppMat_VVUnitAligner_README.docx` | Quick-start guide (.docx) |
-| `SuppMat_VVUnitAligner_README.pdf` | Quick-start guide (.pdf) |
-| `SuppMat_VVUnitAligner_UserManual.docx` | Full User Manual (.docx) |
 | `SuppMat_VVUnitAligner_UserManual.pdf` | Full User Manual (.pdf) |
 
 ---
@@ -150,15 +132,12 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 | File | Description |
 |---|---|
 | `SuppMatt_ASR_dialect_classification.py` | Main Python script |
-| `SuppMat_ds_inferential_prosodic_features.*` | Inferential dataset |
 | `SuppMat_ds_predictive_prosodic_features.*` | ML training/validation dataset |
-| `SuppMat_ASR_dialect_classification_README.*` | Quick-start guide (EN + PT) |
-| `SuppMat_ASR_dialect_classification_UserManual.*` | Full User Manual (EN + PT) |
+| `SuppMat_ASR_dialect_classification_UserManual.*` | Full User Manual |
 | `SuppMat_accuracy_comparison_plot.png` | Accuracy bar chart (all 6 models) |
-| `SuppMat_confusion_matrices_panel.png` | 6-panel colour-coded confusion matrices |
-| `SuppMat_feature_importance_plot.png` | Random Forest feature importances |
+| `SuppMat_confusion_matrices_panel.png` | 6-panel color-coded confusion matrices |
+| `SuppMat_feature_importance_plot.png` | feature importances based on Tree Models |
 | `SuppMat_classification_report.txt` | Full textual classification report |
-| `SuppMat_predictions_by_model.csv` | Per-sample predictions (all models) |
 
 ---
 
@@ -173,9 +152,6 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 |---|---|
 | `SuppMat_LMEM_function.R` | Main R script |
 | `SuppMat_ds_inferential_prosodic_features.*` | Inferential dataset for LMEM analyses |
-| `SuppMat_LMEM_function_README.docx` | Quick-start guide (.docx) |
-| `SuppMat_LMEM_function_README.pdf` | Quick-start guide (.pdf) |
-| `SuppMat_LMEM_function_UserManual.docx` | Full User Manual (.docx) |
 | `SuppMat_LMEM_function_UserManual.pdf` | Full User Manual (.pdf) |
 | `SuppMat_lmem_report.txt` | LMEM output report |
 
@@ -186,13 +162,16 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 The tools form a coherent research pipeline, though each can also be used independently:
 
 ```
-Raw audio recordings
+Raw audio recordings (.wav) + Raw audio transcriptions (.txt)
         │
         ▼
-SuppMat_VVUnitAligner               ← Praat: align vocalic units → TextGrids
+webMAUS (Pipeline without ASR - https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline
         │
         ▼
-SuppMat_SpeechRhythmExtractor       ← Praat: extract acoustic features
+SuppMat_VVUnitAligner               ← Praat: align vocalic-based units, chunks, and tones → TextGrids
+        │
+        ▼
+SuppMat_SpeechRhythmExtractor       ← Praat: extract prosodic-acoustic features
         │
         ├─────────────────────────────────────────────────┐
         ▼                                                 ▼
@@ -213,16 +192,16 @@ SuppMat_lmem_report.txt         accuracy plots · confusion matrices
 Open Praat → Open script... → select .praat file → Run
 ```
 
-### Python tool
-```bash
-pip install pandas numpy matplotlib scikit-learn gtts
-python SuppMatt_ASR_dialect_classification.py
-```
-
 ### R tool
 ```r
 install.packages(c("lme4", "lmerTest", "MuMIn"))
 source("SuppMat_LMEM_function.R")
+```
+
+### Python tool
+```bash
+pip install pandas numpy matplotlib scikit-learn gtts
+python SuppMatt_ASR_dialect_classification.py
 ```
 
 ---
@@ -252,8 +231,8 @@ source("SuppMat_LMEM_function.R")
 If you use any of these tools in your research, please cite this repository:
 
 ```
-[Author(s)]. (2025). SupplementaryMaterials: Tools for Speech Science Research
-[Software]. GitHub. https://github.com/leonidasjr/SupplementaryMaterials
+Silva Jr.L. J.. (2026). SupplementaryMaterials: Tools for Speech Science Research
+[Computer programs for Praat, R, and Python]. GitHub. https://github.com/leonidasjr/SupplementaryMaterials
 ```
 
 ---
