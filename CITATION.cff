@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "If you use this package, please cite it as below."
+authors:
+- family-names: "Silva Jr."
+  given-names: "Leônidas"
+  orcid: "https://orcid.org/0000-0002-3728-9851"
+title: "SupplementaryMaterials: Tools for Speech Science Research"
+version: 1.0.0
+doi: 
+date-released: 2026-04-04
+url: "https://github.com/leonidasjr/SupplementaryMaterials"
