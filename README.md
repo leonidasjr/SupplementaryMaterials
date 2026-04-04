@@ -111,6 +111,22 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 
 ---
 
+### 📁 `SuppMat_LMEM_function/`
+
+**Language:** R  
+**Purpose:** Provides a reusable R function for fitting and reporting **Linear Mixed-Effects Models (LMEMs)** on phonetic data. Handles repeated measures typical of speech datasets (multiple tokens per speaker, per condition), with automated model comparison and assumption diagnostics.
+
+**Files:**
+
+| File | Description |
+|---|---|
+| `SuppMat_LMEM_function.R` | Main R script |
+| `SuppMat_ds_inferential_prosodic_features.*` | Inferential dataset for LMEM analyses |
+| `SuppMat_LMEM_function_UserManual.pdf` | Full User Manual (.pdf) |
+| `SuppMat_lmem_report.txt` | LMEM output report |
+
+---
+
 ### 📁 `SuppMat_ASR_dialect_classification/`
 
 **Language:** Python 3  
@@ -141,22 +157,6 @@ The features produced here serve as direct input to both `SuppMat_LMEM_function`
 
 ---
 
-### 📁 `SuppMat_LMEM_function/`
-
-**Language:** R  
-**Purpose:** Provides a reusable R function for fitting and reporting **Linear Mixed-Effects Models (LMEMs)** on phonetic data. Handles repeated measures typical of speech datasets (multiple tokens per speaker, per condition), with automated model comparison and assumption diagnostics.
-
-**Files:**
-
-| File | Description |
-|---|---|
-| `SuppMat_LMEM_function.R` | Main R script |
-| `SuppMat_ds_inferential_prosodic_features.*` | Inferential dataset for LMEM analyses |
-| `SuppMat_LMEM_function_UserManual.pdf` | Full User Manual (.pdf) |
-| `SuppMat_lmem_report.txt` | LMEM output report |
-
----
-
 ## Suggested Workflow
 
 The tools form a coherent research pipeline, though each can also be used independently:
@@ -165,7 +165,7 @@ The tools form a coherent research pipeline, though each can also be used indepe
 Raw audio recordings (.wav) + Raw audio transcriptions (.txt)
         │
         ▼
-webMAUS (Pipeline without ASR - https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline
+webMAUS (Pipeline without ASR - https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline) 
         │
         ▼
 SuppMat_VVUnitAligner               ← Praat: align vocalic-based units, chunks, and tones → TextGrids
