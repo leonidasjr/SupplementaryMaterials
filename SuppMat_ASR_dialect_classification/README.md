@@ -3,7 +3,7 @@
 
 Silva Jr., L. (2026)
 
-Cite as: SILVA JR., L. SuppMatt_ASR_dialect_classification. [Computer program for Python], 2026. Available at https://github.com/leonidasjr/SupplementaryMaterials/edit/main/SuppMat_ASR_dialect_classification/README.md.
+Cite as: SILVA JR., L. SuppMatt_ASR_dialect_classification. [Computer program for Python], 2026. Available at https://github.com/leonidasjr/SupplementaryMaterials/edit/main/SuppMat_ASR_dialect_classification/.
 
 Python 3 | scikit-learn | MIT License
 
