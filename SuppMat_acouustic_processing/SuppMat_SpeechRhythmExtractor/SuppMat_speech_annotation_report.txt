@@ -1,0 +1,19 @@
+=============================
+SPEECH ANNOTATION REPORT
+SpeechRhythmExtractor.praat
+=============================
+FILE	SPEAKER	DIALECT	TOTAL_DUR_s	CHUNKS	WORDS	SYLLABLES	VOWELS	CONSONANTS	PAUSES
+PBAFEM001.wav	pb01	PB	43.21	3	92	212	213	256	11
+PBAFEM002.wav	pb02	PB	94.71	16	253	505	507	589	213
+SPAFEM001.wav	sp01	SP	59.98	10	112	227	229	261	130
+SPAFEM002.wav	sp02	SP	193.14	38	381	723	733	846	1306
+-------------
+GRAND TOTALS
+-------------
+Total audio duration (s)	391.04
+Total chunks	67
+Total words	838
+Total syllables (VV intervals)	1667
+Total vowels (V intervals)	1682
+Total consonants (C intervals)	1952
+Total pauses (>=50ms)	1660
