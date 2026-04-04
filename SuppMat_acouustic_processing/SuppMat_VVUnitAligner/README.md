@@ -3,6 +3,8 @@
 
 Silva Jr., L. (2021–2026)
 
+Cite as: SILVA JR., L. SuppMat_VVunitAligner. [Computer program for Praat], 2021–2026. Available at https://github.com/leonidasjr/SupplementaryMaterials/edit/main/SuppMat_acouustic_processing/SuppMat_VVUnitAligner/.
+
 ---
 
 ## Overview
