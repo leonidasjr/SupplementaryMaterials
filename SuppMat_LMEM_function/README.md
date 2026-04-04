@@ -1,7 +1,7 @@
 # SuppMat_LMEM_function
 **R function for automatic significant-parameter selection and mixed-effects modelling**
 
-Silva Jr., L. & Barbosa, P. A. (2019–2026)
+Silva Jr., L. (2019–2026)
 
 https://github.com/leonidasjr/SupplementaryMaterials
 
