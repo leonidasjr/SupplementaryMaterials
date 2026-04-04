@@ -1,6 +1,6 @@
 # SupplementaryMaterials
 
-**Supplementary Materials for Speech Science Research — Acoustic Processing (Realignment from MAUS-based TextGrids, Prosodic-feature Extraction), Linear-Mixed Effects Modeling based on the Prosodic-acoustic features, and Automatic Dialect Classification**
+**Supplementary Materials (SuppMat_) for Speech Science Research — Acoustic Processing (Realignment from MAUS-based TextGrids, Prosodic-feature Extraction), Linear-Mixed Effects Modeling based on the Prosodic-acoustic features, and Automatic Dialect Classification**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Praat](https://img.shields.io/badge/Praat-6.x-lightgrey.svg)](https://www.praat.org/)
