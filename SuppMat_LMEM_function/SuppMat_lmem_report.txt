@@ -1,0 +1,292 @@
+
+ =========== f0sd =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 1678.7
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.1504 -0.4426 -0.0906  0.3096  5.6935 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 0.2163   0.4651  
+ Residual             2.1304   1.4596  
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   2.4304     0.1758 18.0000  13.827 4.99e-11 ***
+DIALECTSPA    0.5350     0.2486 18.0000   2.152   0.0452 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.03 
+Conditional R² (fixed + random effects): 0.119 
+
+ =========== f0SAQ =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 1659.6
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.6081 -0.4811 -0.1369  0.2262  6.4876 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 0.1153   0.3396  
+ Residual             2.0744   1.4403  
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   1.6780     0.1433 18.0000  11.706 7.52e-10 ***
+DIALECTSPA    0.4647     0.2027 18.0000   2.292   0.0342 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.024 
+Conditional R² (fixed + random effects): 0.075 
+
+ =========== df0mean_pos =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 2657.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.5891 -0.4358 -0.1553  0.2262  9.8527 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept)  1.62    1.273   
+ Residual             18.11    4.255   
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   4.2763     0.4907 18.0000   8.715 7.09e-08 ***
+DIALECTSPA    1.9746     0.6939 18.0000   2.845   0.0107 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.047 
+Conditional R² (fixed + random effects): 0.125 
+
+ =========== df0sd_pos =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 2323.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.5990 -0.5587 -0.1779  0.3882  5.4473 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 0.794    0.891   
+ Residual             8.734    2.955   
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   3.2617     0.3426 18.0000   9.521 1.89e-08 ***
+DIALECTSPA    1.0756     0.4845 18.0000   2.220   0.0395 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.03 
+Conditional R² (fixed + random effects): 0.11 
+
+ =========== sl_LTAS_alpha =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 2632.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.4242 -0.4901  0.0655  0.5018  5.0866 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept)  0.9411  0.9701  
+ Residual             17.3605  4.1666  
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept) -19.9335     0.4118  18.0000  -48.40  < 2e-16 ***
+DIALECTSPA    5.2300     0.5824  18.0000    8.98 4.55e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.272 
+Conditional R² (fixed + random effects): 0.31 
+
+ =========== cvint =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 4485.7
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.9016 -0.1847 -0.0735  0.0018 15.6812 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept)    0      0.00   
+ Residual             1025     32.02   
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   29.323      2.111 458.000  13.890  < 2e-16 ***
+DIALECTSPA   -10.701      2.986 458.000  -3.584 0.000374 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.027 
+Conditional R² (fixed + random effects): 0.027 
+
+ =========== pause_sd =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 6416.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.3511 -0.2367 -0.0179  0.2516  3.3767 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 44627    211.3   
+ Residual             62004    249.0   
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error     df t value Pr(>|t|)    
+(Intercept)   362.47      68.79  18.00   5.269 5.20e-05 ***
+DIALECTSPA    581.81      97.29  18.00   5.980 1.17e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.443 
+Conditional R² (fixed + random effects): 0.676 
+
+ =========== pause_meandur =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: 6158.7
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.3487 -0.2781 -0.0139  0.2233  5.7918 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 32898    181.4   
+ Residual             34984    187.0   
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error     df t value Pr(>|t|)    
+(Intercept)   445.42      58.67  18.00   7.592 5.12e-07 ***
+DIALECTSPA    176.82      82.97  18.00   2.131   0.0471 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.103 
+Conditional R² (fixed + random effects): 0.538 
+
+ =========== pause_rate =========== 
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: formula
+   Data: data
+
+REML criterion at convergence: -544.6
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.7473 -0.1920  0.0281  0.3455  5.2148 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ SPEAKER  (Intercept) 0.01472  0.1213  
+ Residual             0.01539  0.1241  
+Number of obs: 460, groups:  SPEAKER, 20
+
+Fixed effects:
+            Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)  0.36843    0.03923 18.00000   9.391 2.33e-08 ***
+DIALECTSPA   0.14104    0.05549 18.00000   2.542   0.0204 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr)
+DIALECTSPA -0.707
+
+Effect size (Nakagawa & Schielzeth, 2013):
+Marginal R² (fixed effects): 0.142 
+Conditional R² (fixed + random effects): 0.561 
+
