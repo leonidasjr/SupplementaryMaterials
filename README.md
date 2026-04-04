@@ -41,7 +41,7 @@ SupplementaryMaterials/
 ├── SuppMat_ASR_dialect_classification/
 │   ├── SuppMat_ds_predictive_prosodic_features.*          ← ML training/validation dataset
 │   ├── SuppMatt_ASR_dialect_classification.py             ← main script
-│   ├── SuppMat_ASR_dialect_classification_UserManual.
+│   ├── SuppMat_ASR_dialect_classification_UserManual.pdf
 │   ├── SuppMat_accuracy_comparison_plot.png
 │   ├── SuppMat_confusion_matrices_panel.png
 │   ├── SuppMat_feature_importance_plot.png
