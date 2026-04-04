@@ -1,0 +1,163 @@
+=========================
+ASR classification report
+=========================
+
+Random state: 1
+Test size: 20.0%
+
+Training samples: 368
+Validation samples: 92
+Training dialect counts:
+dialect
+PB    184
+SP    184
+Name: count, dtype: int64
+Validation dialect counts:
+dialect
+PB    46
+SP    46
+Name: count, dtype: int64
+
+Selected features:
+- f0sd
+- f0SAQ
+- df0mean_pos
+- df0sd_pos
+- sl_LTAS_alpha
+- cvint
+- pause_sd
+- pause_meandur
+- pause_rate
+
+===== LDA =====
+Best hyperparameters: {'shrinkage': None, 'solver': 'lsqr'}
+Accuracy: 0.946
+Error rate: 0.054
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          44             2
+Actual SP         :           3            43
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       0.94      0.96      0.95        46
+          SP       0.96      0.93      0.95        46
+
+    accuracy                           0.95        92
+   macro avg       0.95      0.95      0.95        92
+weighted avg       0.95      0.95      0.95        92
+
+
+===== k-NN =====
+Best hyperparameters: {'n_neighbors': 5, 'weights': 'uniform'}
+Accuracy: 0.957
+Error rate: 0.043
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          45             1
+Actual SP         :           3            43
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       0.94      0.98      0.96        46
+          SP       0.98      0.93      0.96        46
+
+    accuracy                           0.96        92
+   macro avg       0.96      0.96      0.96        92
+weighted avg       0.96      0.96      0.96        92
+
+
+===== DT =====
+Best hyperparameters: {'criterion': 'gini', 'max_depth': None}
+Accuracy: 0.967
+Error rate: 0.033
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          44             2
+Actual SP         :           1            45
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       0.98      0.96      0.97        46
+          SP       0.96      0.98      0.97        46
+
+    accuracy                           0.97        92
+   macro avg       0.97      0.97      0.97        92
+weighted avg       0.97      0.97      0.97        92
+
+
+===== RF =====
+Best hyperparameters: {'max_depth': None, 'max_features': 'sqrt', 'n_estimators': 100}
+Accuracy: 0.967
+Error rate: 0.033
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          44             2
+Actual SP         :           1            45
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       0.98      0.96      0.97        46
+          SP       0.96      0.98      0.97        46
+
+    accuracy                           0.97        92
+   macro avg       0.97      0.97      0.97        92
+weighted avg       0.97      0.97      0.97        92
+
+
+===== SVM =====
+Best hyperparameters: {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+Accuracy: 0.957
+Error rate: 0.043
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          44             2
+Actual SP         :           2            44
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       0.96      0.96      0.96        46
+          SP       0.96      0.96      0.96        46
+
+    accuracy                           0.96        92
+   macro avg       0.96      0.96      0.96        92
+weighted avg       0.96      0.96      0.96        92
+
+
+===== GBM =====
+Best hyperparameters: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200, 'subsample': 0.8}
+Accuracy: 0.978
+Error rate: 0.022
+-----------------
+Dialect Classification Matrix
+                                Predicted
+                             PB            SP
+Actual PB         :          44             2
+Actual SP         :           0            46
+-----------------
+Classification report:
+              precision    recall  f1-score   support
+
+          PB       1.00      0.96      0.98        46
+          SP       0.96      1.00      0.98        46
+
+    accuracy                           0.98        92
+   macro avg       0.98      0.98      0.98        92
+weighted avg       0.98      0.98      0.98        92
+
+
