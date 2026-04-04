@@ -1,6 +1,6 @@
 # SupplementaryMaterials
 
-**Supplementary Materials for Speech Science Research — Acoustic Processing, Rhythm Extraction, and Automatic Dialect Classification**
+**Supplementary Materials for Speech Science Research — Acoustic Processing, Prosodic-feature Extraction, and Automatic Dialect Classification**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Praat](https://img.shields.io/badge/Praat-6.x-lightgrey.svg)](https://www.praat.org/)
