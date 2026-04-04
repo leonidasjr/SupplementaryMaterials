@@ -30,7 +30,7 @@ SupplementaryMaterials/
 │   ├── SuppMat_SpeechRhythmExtractor/
 │   │   ├── SuppMat_ds_inferential_prosodic_features.*     ← inferential dataset
 │   │   ├── SuppMat_ds_predictive_prosodic_features.*      ← ML dataset
-│   │   ├── SuppMat_speech_annotation_report.txt
+│   │   ├── SuppMat_speech_annotation_report.txt           ← 2-sample example of report
 │   │   ├── SuppMat_SpeechRhythmExtractor.praat            ← main script
 │   │   ├── SuppMat_SpeechRhythmExtractor_UserManual.pdf
 │   │
