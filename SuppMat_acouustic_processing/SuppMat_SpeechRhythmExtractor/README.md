@@ -3,7 +3,7 @@
 
 Silva Jr., L. & Barbosa, P. A. (2019–2026)
 
-Cite as: SILVA JR., L. SuppMat_SpeechRhythmExtractor. [Computer program for Praat], 2019–2026. Available at https://github.com/leonidasjr/SupplementaryMaterials/tree/main/SuppMat_acouustic_processing/SuppMat_SpeechRhythmExtractor.
+Cite as: SILVA JR., L.; BARBOSA, P. A. SuppMat_SpeechRhythmExtractor. [Computer program for Praat], 2019–2026. Available at https://github.com/leonidasjr/SupplementaryMaterials/tree/main/SuppMat_acouustic_processing/SuppMat_SpeechRhythmExtractor.
 
 ---
 
