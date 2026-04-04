@@ -12,11 +12,11 @@
 
 ## Overview
 
-This repository provides fully documented, open-access tools for **phonetic (and linguistic) research** on speech prosody, rhythm, voice quality, and dialect classification. The materials span acoustic feature extraction, vocalic unit alignment, statistical modelling, and supervised machine learning — covering a complete research workflow from raw audio to classification and modelling results.
+This repository provides fully documented, open-access tools for **phonetic (and linguistic) research** on speech prosody (rhythm, intonation, voice quality), and dialect classification. The materials span vocalic unit alignment, acoustic feature extraction, statistical modelling, and supervised machine learning — covering a complete research workflow from raw audio and its transcript to classification and modelling results.
 
 All scripts are designed with **reproducibility** as the primary goal: every parameter, random seed, feature list, and modelling decision is declared explicitly so that any researcher can re-run the analyses and obtain identical results.
 
-The tools are suitable for researchers and students in **phonetics, phonology, sociolinguistics, speech science, and related areas** — including those with no prior background in programming or machine learning. Detailed User Manuals (English and Portuguese) are provided for each tool.
+The tools are suitable for researchers and students in **phonetics, phonology, sociolinguistics, speech science, and related areas** — including those with no prior background in programming or machine learning. Detailed User Manuals are provided for each tool.
 
 ---
 
