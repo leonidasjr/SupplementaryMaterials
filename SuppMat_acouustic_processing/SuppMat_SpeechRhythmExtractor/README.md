@@ -3,8 +3,6 @@
 
 Silva Jr., L. & Barbosa, P. A. (2019–2026)
 
-https://github.com/leonidasjr/SpeechRhythmCode
-
 ---
 
 ## Overview
