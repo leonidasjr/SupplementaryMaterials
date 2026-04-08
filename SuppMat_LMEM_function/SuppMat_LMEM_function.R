@@ -60,19 +60,25 @@ ds_CadLin <- read.delim(data_file, stringsAsFactors = TRUE)
 # -------------------------
 str(ds_CadLin)
 
-# Optional but recommended
+# -------------------------
+# 4. Prepare grouping variables
+# -------------------------
+# PB is set as the reference level for DIALECT.
+# Therefore, positive beta coefficients indicate higher values
+# for the comparison level relative to PB.
 ds_CadLin$DIALECT <- factor(ds_CadLin$DIALECT)
+ds_CadLin$DIALECT <- relevel(ds_CadLin$DIALECT, ref = "PB")
 ds_CadLin$SPEAKER <- factor(ds_CadLin$SPEAKER)
 
 # -------------------------
-# 4. Define variables
+# 5. Define variables
 # -------------------------
 d_vars <- names(ds_CadLin)[sapply(ds_CadLin, is.numeric)]
 fixed_effect <- "DIALECT"
 random_effect <- "SPEAKER"
 
 # -------------------------
-# 5. Save output in same folder as dataset
+# 6. Save output in same folder as dataset
 # -------------------------
 output_file <- file.path(dirname(data_file), "SuppMat_lmem_report.txt")
 
